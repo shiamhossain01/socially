@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+}
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 0;
+
+}
+.logo{
+    width: 10%;
+    /* border: 1px solid red; */
+
+}
+.logo img{
+
+}
+.medle{
+    width: 25%;
+    /* border: 1px solid red; */
+
+}
+.medle ul{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.medle ul li{
+    list-style: none;
+    
+}
+.medle ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    
+}
+.right{
+    width: 20%;
+    /* border: 1px solid red; */
+
+}
+.right ul{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.right ul li{
+    list-style: none;
+    
+
+}
+.right ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+.right .btn{
+    border: 2px solid rgb(215, 76, 185);
+    padding: 6px 20px;
+    background-color: rgb(215, 76, 185);
+    border-radius: 18px 0px 20px 18px;
+    color: #fff;
+}
+
+
+
+
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/back-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left1{
+
+}
+.left1 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+.left1 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+.left1 a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid rgb(215, 76, 185);
+    padding: 6px 50px;
+    border-radius: 18px 0px 26px 18px;
+    background-color: rgb(215, 76, 185);
+    color: #fff;
+
+}
+
+/* .right .btn{
+    border: 2px solid rgb(215, 76, 185);
+    padding: 6px 20px;
+    background-color: rgb(215, 76, 185);
+    border-radius: 18px 0px 20px 18px;
+    color: #fff;
+} */
